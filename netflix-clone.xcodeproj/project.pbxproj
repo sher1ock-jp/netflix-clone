@@ -15,6 +15,10 @@
 		C70700732B79E92E003A399A /* netflix_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700722B79E92E003A399A /* netflix_cloneTests.swift */; };
 		C707007D2B79E92E003A399A /* netflix_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707007C2B79E92E003A399A /* netflix_cloneUITests.swift */; };
 		C707007F2B79E92E003A399A /* netflix_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707007E2B79E92E003A399A /* netflix_cloneUITestsLaunchTests.swift */; };
+		C707008D2B7C9EAC003A399A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707008C2B7C9EAC003A399A /* HomeViewController.swift */; };
+		C707008F2B7CA4C1003A399A /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C707008E2B7CA4C1003A399A /* UpcomingViewController.swift */; };
+		C70700912B7CA567003A399A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700902B7CA567003A399A /* SearchViewController.swift */; };
+		C70700932B7CA61E003A399A /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70700922B7CA61E003A399A /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C70700782B79E92E003A399A /* netflix-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "netflix-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C707007C2B79E92E003A399A /* netflix_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITests.swift; sourceTree = "<group>"; };
 		C707007E2B79E92E003A399A /* netflix_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C707008C2B7C9EAC003A399A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C707008E2B7CA4C1003A399A /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		C70700902B7CA567003A399A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C70700922B7CA61E003A399A /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		C707005A2B79E92B003A399A /* netflix-clone */ = {
 			isa = PBXGroup;
 			children = (
+				C707008B2B7C9E5B003A399A /* Controllers */,
 				C707005B2B79E92B003A399A /* AppDelegate.swift */,
 				C707005D2B79E92B003A399A /* SceneDelegate.swift */,
 				C707005F2B79E92B003A399A /* MainTabBarViewController.swift */,
@@ -122,6 +131,17 @@
 				C707007E2B79E92E003A399A /* netflix_cloneUITestsLaunchTests.swift */,
 			);
 			path = "netflix-cloneUITests";
+			sourceTree = "<group>";
+		};
+		C707008B2B7C9E5B003A399A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C707008C2B7C9EAC003A399A /* HomeViewController.swift */,
+				C707008E2B7CA4C1003A399A /* UpcomingViewController.swift */,
+				C70700902B7CA567003A399A /* SearchViewController.swift */,
+				C70700922B7CA61E003A399A /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70700912B7CA567003A399A /* SearchViewController.swift in Sources */,
 				C70700602B79E92B003A399A /* MainTabBarViewController.swift in Sources */,
+				C70700932B7CA61E003A399A /* DownloadsViewController.swift in Sources */,
 				C707005C2B79E92B003A399A /* AppDelegate.swift in Sources */,
 				C707005E2B79E92B003A399A /* SceneDelegate.swift in Sources */,
+				C707008F2B7CA4C1003A399A /* UpcomingViewController.swift in Sources */,
+				C707008D2B7C9EAC003A399A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
