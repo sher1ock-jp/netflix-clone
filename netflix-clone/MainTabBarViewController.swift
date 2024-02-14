@@ -23,6 +23,13 @@ class MainTabBarViewController: UITabBarController {
         vc3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
         vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
         
+        vc1.title = "House"
+        vc2.title = "coming soon"
+        vc3.title = "Top Search"
+        vc4.title = "Downloads"
+        
+        tabBar.tintColor = .label
+        
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)
         
     }
